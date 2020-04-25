@@ -44,7 +44,7 @@ const getDOM = selector => () => {
   assignDOM(dom.main.role(), main.role);
   // assignDOM(dom.main.links(), main.links)
   
-  // External Links (ICONS)
+  // Ext. Links (ICONS)
   const connectsDOM = main.connects
     .map(
       ({ name, iconName, link }) =>
